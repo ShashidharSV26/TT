@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPage_Act"
+    android:background="#A3BFBFBF">
+
+
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="LANGUAGES"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#9C27B0"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/language"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:padding="15dp">
+
+    <GridView
+        android:id="@+id/langGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4"
+        android:rowCount="2" />
+
+</RelativeLayout>
+
+</RelativeLayout>

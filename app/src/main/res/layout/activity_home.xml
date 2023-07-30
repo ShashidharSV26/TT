@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Act"
+    android:background="#fff"
+    android:gravity="center">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id="@+id/homerecycleview"
+        android:padding="10dp"/>
+
+
+
+
+</RelativeLayout>
+
+<!--<androidx.cardview.widget.CardView-->
+<!--android:id="@+id/aboutcard"-->
+<!--android:layout_height="120dp"-->
+<!--android:layout_width="180dp"-->
+
+<!--android:onClick="onAboutCard"-->
+<!--android:layout_alignParentBottom="true"-->
+<!--android:layout_toLeftOf="@+id/safetycard"-->
+<!--android:layout_marginBottom="90dp"-->
+<!--android:layout_marginRight="30dp">-->
+
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:weightSum="100">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/abouticon"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/about"-->
+<!--        android:layout_weight="75"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="ABOUT"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        />-->
+<!--</LinearLayout>-->
+<!--</androidx.cardview.widget.CardView>-->
+
+<!--<androidx.cardview.widget.CardView-->
+<!--android:id="@+id/safetycard"-->
+<!--android:layout_height="120dp"-->
+<!--android:layout_width="180dp"-->
+
+<!--android:onClick="onSafetyCard"-->
+<!--android:layout_alignParentBottom="true"-->
+<!--android:layout_alignParentRight="true"-->
+<!--android:layout_marginRight="35dp"-->
+<!--android:layout_marginBottom="90dp">-->
+
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:weightSum="100">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/safetyicon"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/safety"-->
+<!--        android:layout_weight="75"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SAFETY"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        />-->
+<!--</LinearLayout>-->
+<!--</androidx.cardview.widget.CardView>-->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#8AC1BDBD" /> <!-- Add your desired focus color here -->
+        </shape>
+    </item>
+
+    <!-- Default state when item is not focused -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#fff" /> <!-- Add your default color here -->
+        </shape>
+    </item>
+</selector>

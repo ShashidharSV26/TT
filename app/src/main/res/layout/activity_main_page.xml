@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage_Act"
+    android:columnCount="3"
+    android:rowCount="2"
+    android:layout_margin="15dp"
+    android:padding="5dp"
+    android:background="#FDFBFB"
+    android:layout_marginLeft="50dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/moviecard"
+        android:layout_height="155dp"
+        android:layout_width="200dp"
+        android:layout_margin="15dp"
+        android:onClick="onMovieCard"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/movieicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/movies"
+                android:layout_weight="75"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MOVIES"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/videoscard"
+        android:layout_height="155dp"
+        android:layout_width="200dp"
+        android:layout_margin="15dp"
+        android:onClick="onVideosCard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/videoicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/video"
+                android:layout_weight="75"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIDEOS"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/comedycard"
+        android:layout_height="155dp"
+        android:layout_width="200dp"
+        android:layout_margin="15dp"
+        android:onClick="onComedyCard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/comedyicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/comedy"
+                android:layout_weight="75"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comedy"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sportscard"
+        android:layout_height="155dp"
+        android:layout_width="200dp"
+        android:layout_margin="15dp"
+        android:onClick="onSportsCard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/sportsicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sports"
+                android:layout_weight="75"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SPORTS"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/aboutcard"
+        android:layout_height="155dp"
+        android:layout_width="200dp"
+        android:layout_margin="15dp"
+        android:onClick="onAboutCard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/abouticon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/about"
+                android:layout_weight="75"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/safetycard"
+        android:layout_height="155dp"
+        android:layout_width="200dp"
+        android:layout_margin="15dp"
+        android:onClick="onSafetyCard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/safetyicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/safety"
+                android:layout_weight="75"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAFETY"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+               />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</GridLayout>
