@@ -160,4 +160,6 @@ protected void onDestroy() {
     super.onDestroy();
     unregisterReceiver(messageReceiver);
 }
+
+//new line added
 }
