@@ -60,8 +60,6 @@ public class Home_Act extends AppCompatActivity {
         startService(new Intent(this, MyPlayerService.class));
         IntentFilter filter = new IntentFilter(MyPlayerService.BROADCAST_ACTION);
         registerReceiver(messageReceiver, filter);
-//        UserData uDB=new UserData(this);
-//        uDB.addData("ho","hi","hello","by");
 
         getSupportActionBar().setTitle("HOME");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
